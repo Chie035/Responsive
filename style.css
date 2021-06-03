@@ -1,91 +1,92 @@
-*{
-  margin:0;
-  padding:0;
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
-header{
+header {
   height: 50px;
   background-color: #ff9a4b;
 }
 
-main{
+main {
   width: 960px;
-  margin:50px auto;
+  margin: 50px auto;
   display: flex;
 }
 
-.step-box{
+.step-box {
   width: 300px;
-  padding:10px;
+  padding: 10px;
   background-color: #eeeeee;
   margin-right: 30px;
   position: relative;
 }
 
-.step-box:nth-child(3){
+.step-box:nth-child(3) {
   margin-right: 0;
 }
 
-.steps{
+.steps {
   background-color: #ff9a4b;
   color: white;
-  position:absolute;
-  top:0;
-  left:0;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
-.image1{
+.image1 {
   height: 150px;
   background-image: url(img/flow01.png);
   background-size: cover;
   background-position: bottom;
 }
 
-.image2{
+.image2 {
   height: 150px;
   background-image: url(img/flow02.png);
   background-size: cover;
   background-position: bottom;
 }
 
-.image3{
+.image3 {
   height: 150px;
   background-image: url(img/flow03.png);
   background-size: cover;
   background-position: bottom;
 }
 
-.title{
-  margin-top:15px;
-  margin-bottom:5px;
+.title {
+  margin-top: 15px;
+  margin-bottom: 5px;
 }
 
-footer{
+footer {
   height: 50px;
   background-color: #aaaaaa;
 }
 
-@media screen and (max-width:426px){
-  header{
-    width:100%;
+@media screen and (max-width: 768px) {
+  header {
+    width: 100%;
   }
 
-  main{
-    width:100%;
+  main {
+    width: 100%;
     display: block;
   }
 
-  .step-box{
-    width:90%;
-    margin:20px auto;
+  .step-box {
+    width: 90%;
+    margin: 20px auto;
   }
 
-  .step-box:nth-child(3){
-    margin-right:5%;
+  .step-box:nth-child(3) {
+    margin-right: 5%;
   }
 
-  footer{
-    width:100%;
+
+  footer {
+    width: 100%;
   }
 }
